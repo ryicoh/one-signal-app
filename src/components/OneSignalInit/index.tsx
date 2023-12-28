@@ -15,6 +15,7 @@ export const OneSignalInit = ({ children }: PropsWithChildren) => {
 
     await OneSignal.init({
       appId: oneSignalAppId,
+      autoResubscribe: true,
     });
   };
 
